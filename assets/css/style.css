@@ -95,18 +95,34 @@ nav{
 }
 /* main */
 main{
-    background-color: blue;
+    
     /* make main element to take up much of the space */
     flex: 1 0 auto;
     margin-top: 47px;
     
 }
 
-/* footer */
-footer{
-    background-color: khaki;
+/* hero section*/
+#hero{
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
+/* footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly ;
+    list-style-type: none;
+}
+
+#social-networks i{
+    font-size: 160%;
+    padding:5%;
+    color: #3a3a3a;
+}
 /* media queries: tablets and larger(768px)*/
 @media screen and (min-width:768px) {
     /* header */
